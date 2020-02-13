@@ -6,8 +6,8 @@ describe("Somme entre deux nombres", function() {
   /* global it */
   it("Doit retourner 15", function() {
     var a = 10;
-    var b = 5;
-    var result_somme = 15;
+    var b = 10;
+    var result_somme = 20;
 
     assert.equal(main.somme(a, b), result_somme);
   });
