@@ -2,7 +2,7 @@ var assert = require("assert");
 var main = require("../js/main");
 
 /* global describe */
-describe('Somme entre deux nombres', function() {
+describe("Somme entre deux nombres", function() {
   /* global it */
   it("Doit retourner 15", function() {
     var a = 10;
